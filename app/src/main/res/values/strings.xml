@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AgendaEstudante</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_tasks">Atividades</string>
+    <string name="title_habits">Hábitos</string>
+    <string name="title_reports">Relatórios</string>
 </resources>
