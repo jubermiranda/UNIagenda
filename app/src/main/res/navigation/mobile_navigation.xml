@@ -17,19 +17,32 @@
 
     <fragment
         android:id="@+id/navigation_tasks"
-        android:name="com.example.UNIagenda.ui.dashboard.DashboardFragment"
+        android:name="com.example.UNIagenda.ui.tasks.TasksFragment"
         android:label="@string/title_tasks"
         tools:layout="@layout/fragment_dashboard" >
         <action
             android:id="@+id/action_navigation_tasks_to_navigation_habits"
             app:destination="@id/navigation_habits" />
+        <action
+            android:id="@+id/action_navigation_tasks_to_navigation_habits2"
+            app:destination="@id/navigation_habits" />
     </fragment>
 
     <fragment
         android:id="@+id/navigation_habits"
-        android:name="com.example.UNIagenda.ui.notifications.NotificationsFragment"
+        android:name="com.example.UNIagenda.ui.habits.HabitsFragment"
         android:label="@string/title_habits"
         tools:layout="@layout/fragment_notifications" >
+        <action
+            android:id="@+id/action_navigation_habits_to_navigation_reports"
+            app:destination="@id/navigation_reports" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.example.UNIagenda.ui.reports.ReportFragment"
+        android:label="@string/title_reports"
+        tools:layout="@layout/fragment_report" >
         <action
             android:id="@+id/action_navigation_habits_to_navigation_home"
             app:destination="@id/navigation_home" />

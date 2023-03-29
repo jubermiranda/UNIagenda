@@ -1,4 +1,4 @@
-package com.example.UNIagenda.view;
+package com.example.UNIagenda.ui;
 
 import android.os.Bundle;
 
