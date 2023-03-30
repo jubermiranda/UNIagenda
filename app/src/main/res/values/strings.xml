@@ -4,4 +4,8 @@
     <string name="title_tasks">Atividades</string>
     <string name="title_habits">Hábitos</string>
     <string name="title_reports">Relatórios</string>
+    <string name="HabitsFragment">Hábitos</string>
+    <string name="addHabitButton">Novo Hábito</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="habitCardName">Hábito</string>
 </resources>

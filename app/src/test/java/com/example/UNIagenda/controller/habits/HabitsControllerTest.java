@@ -8,7 +8,7 @@ import com.example.UNIagenda.model.Habit;
 import org.junit.Before;
 import org.junit.Test;
 
-public class HabitControllerTest {
+public class HabitsControllerTest {
 
     private HabitsController controller;
 
@@ -25,11 +25,18 @@ public class HabitControllerTest {
 
 
     @Test
-    public void addHabitToController(){
+    public void addFirstHabit(){
         Habit habit = Utils.genericHabit();
+        int initialSize;
+        int finalSize;
+
+        initialSize = controller.getHabits().size();
         controller.addHabit(habit);
-        assert
+        finalSize = controller.getHabits().size();
+
+        assertTrue(initialSize < finalSize);
 
     }
+
 
 }
